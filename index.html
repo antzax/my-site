@@ -3,51 +3,65 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Anton's Homepage</title>
-    <link rel="stylesheet" href="css/simple.css">
+    <title>My Homepage</title>
+    <link rel="stylesheet" href="css/simple.css" />
     <style>
       body {
-        font-family: 'Gill Sans', sans-serif;
+        font-family: "Gill Sans", sans-serif;
       }
     </style>
   </head>
   <body>
-    <body>
-      <header>
-        <h1>Anton's Homepage</h1>
-      </header>
+    <header>
+      <nav>
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="blog/index.html">Blog</a>
+        <a href="about.html">About</a>
+      </nav>
 
-      <main>
-        <p>
-          My name is Anton. I enjoy making websites and apps and teach others do
-          the same.
-        </p>
+      <h1>Anton's Homepage</h1>
+    </header>
 
-        <img src="images/space.jpg" alt="space" width="300"/>
+    <main>
+      <figure>
+        <img src="images/space.jpeg" alt="space" width="300" />
 
-        <p>Check out this cool <a href="https://google.com">thing</a>!</p>
+        <figcaption>
+          Space is cool.
+          <a
+            href="https://unsplash.com/photos/blue-and-purple-galaxy-digital-wallpaper-E0AHdsENmDg"
+            >Photo source</a
+          >
+        </figcaption>
+      </figure>
 
-        <h2>Languages I know</h2>
+      <p>
+        Welcome to my website! Here you can find more about me, read my very
+        interesting blog posts, and check out some of the fun hobbies I am into.
+        It won't be long until you are wondering what sorcery I have used to
+        create this mind-blowing website, web-based experience. The answer is
+        HTML.
+      </p>
 
-        <ul>
-          <li>Ruby</li>
-          <li>Javascript</li>
-          <li>CSS</li>
-          <li>HTML</li>
-        </ul>
+      <h2>How to make website</h2>
 
-        <h2>Some random title</h2>
+      <ol>
+        <li>Create an HTM file</li>
+        <li>Write some HTML in it</li>
+        <li>Open it in your website</li>
+      </ol>
 
-        <ol>
-          <li>Random 1</li>
-          <li>Random thing</li>
-          <li>Random thing</li>
-        </ol>
-      </main>
+      <p class="notice">
+        <strong>Want to learn how to make a website like this?</strong><br />
+        Check out the free web book
+        <a href="https://htmlforpeople.com/">HTML for People</a>. It's made for
+        everyone and teaches you how to make a webpage in a friendly,
+        approachable way.
+      </p>
+    </main>
 
-      <footer>
-        <p>Made with ❤️ and ☕️ by Antzax</p>
-      </footer>
-    </body>
+    <footer>
+      <p>Made with ❤️ and ☕️ by Antzax</p>
+    </footer>
   </body>
 </html>
